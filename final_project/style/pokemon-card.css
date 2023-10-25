@@ -23,6 +23,7 @@ main {
 }
 #name {
     text-align: center;
+    font-size: 1em;
 }
 #type, #ability {
     display: flex;
@@ -32,11 +33,33 @@ main {
 #pokemon-name, #type-name, #ability-name {
     text-align: center;
     padding: 20px;
+    font-size: 1.2em;
 }
 nav {
     text-align: center;
+    background-color: rgb(38, 154, 184);
     padding: 20px;
+}
+a {
+    color: white;
+    margin: 40px;
+    font-size: 1.2em;
+    padding: 20px;
+}
+a:hover {
+    color: rgb(38, 154, 184);
+    background-color: white;
 }
 .search-pokemon{
     text-align: center;
+}
+#poke-number {
+    margin: 0 auto;
+    padding: 5px;
+}
+#pokemon {
+    text-align: center;
+}
+#find-pokemon {
+    font-size: 1em;
 }
