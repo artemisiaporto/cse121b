@@ -16,8 +16,8 @@ async function getPokemon(url, doThis) {
     const response = await fetch(url);
     //if the fetch was successful do
     if (response.ok) {
-      const data = await response.json();
-      doThis(data);
+        const data = await response.json();
+        doThis(data);
     }
 }
 
