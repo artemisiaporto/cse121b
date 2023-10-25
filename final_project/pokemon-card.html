@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Card</title>
+    <link rel="stylesheet" href="style/pokemon-card.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="https://artemisiaporto.github.io/cse121b/" target="_blank">Personal Tasks</a>
+            <a href="https://pokeapi.co/" target="_blank">Poke API</a>
+        </nav>
+    </header>
+    <main>
+        <section class="search-pokemon">
+            <div id="poke-number">
+                <label for="pokemon">Pokémon Number:</label>
+                <input type="text" id="pokemon" name="pokemon">
+            </div>
+            <div>
+                <input type="button" id="find-pokemon" value="Find Pokémon">
+            </div>
+        </section>
+        <h1 id="pokemon-name">Pokémon:</h1>
+        <h2 id="name"></h2>
+        <section id="image"></section>
+        <h1 id="type-name">Type:</h1>
+        <ul id="type"></ul>
+        <h1 id="ability-name">Ability:</h1>
+        <ul id="ability"></ul>
+    </main>
+    <script src="script/pokemon-card.js"></script>
+</body>
+</html>

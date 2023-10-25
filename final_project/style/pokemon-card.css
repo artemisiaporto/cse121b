@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Roboto;
+}
+body {
+    background-color: rgb(179, 228, 243);
+}
+main {
+    width: 350px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    }
+#image img {
+    display: block;
+    width: 150px;
+    max-height: 300px;
+    position: relative;
+    margin: 0 auto;
+}
+#name {
+    text-align: center;
+}
+#type, #ability {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0 10px 0;
+}
+#pokemon-name, #type-name, #ability-name {
+    text-align: center;
+    padding: 20px;
+}
+nav {
+    text-align: center;
+    padding: 20px;
+}
+.search-pokemon{
+    text-align: center;
+}
